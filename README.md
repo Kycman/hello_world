@@ -27,3 +27,18 @@ echo "deb [signed-by=/usr/share/keyrings/kitware-archive-keyring.gpg] https://ap
 sudo apt-get update
 sudo apt-get install cmake
 ```
+
+# Ninja
+```
+sudo apt-get update
+sudo apt install ninja-build
+```
+
+# ccache
+```
+sudo apt update
+sudo apt install ccache
+```
+
+export PATH="/usr/lib/ccache:$PATH"
+ccache -M 20G
